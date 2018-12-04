@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:gravity="center"
+android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/result_label"
+        android:text="@string/result_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:padding="30dp"
+        android:textSize="35dp"/>
+
+    <TextView
+        android:id="@+id/score_label"
+        android:text="Correct : 3/5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="serif"
+        android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/false_label"
+        android:text="Wrong  : 3/5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="serif"
+        android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/cheat_label"
+        android:text="Cheat    : 3/5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="serif"
+        android:textSize="25dp"/>
+
+
+    <Button
+        android:id="@+id/restart_button"
+        android:text="@string/restart_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
